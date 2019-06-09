@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc85bb93-2a36-4137-87da-bf09e1b4c60b" name="Default Changelist" comment="Implementação de sockets do tp2 de SD.">
-      <change afterPath="$PROJECT_DIR$/src/Gui/GUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor$Conexao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Gui/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Gui/circulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Gui/quadrado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Gui/retangulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Gui/triangulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sample echo/META-INF/sample echo.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente/Cliente2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +28,54 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.51208013">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1050">
+                  <caret line="52" selection-start-line="52" selection-end-line="52" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Gui/GUI.form">
+              <provider selected="true" editor-type-id="ui-designer" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="609">
+                  <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,16 +102,16 @@
         <option value="$PROJECT_DIR$/src/Servidor/Servidor.java" />
         <option value="$PROJECT_DIR$/src/GUI.form" />
         <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/Gui/GUI.form" />
-        <option value="$PROJECT_DIR$/src/Gui/GUI.java" />
-        <option value="$PROJECT_DIR$/src/Cliente/Cliente.java" />
         <option value="$PROJECT_DIR$/src/Cliente/Cliente2.java" />
         <option value="$PROJECT_DIR$/src/Cliente/Cliente3.java" />
         <option value="$PROJECT_DIR$/src/Cliente/Cliente4.java" />
+        <option value="$PROJECT_DIR$/src/Gui/GUI.java" />
+        <option value="$PROJECT_DIR$/src/Gui/GUI.form" />
+        <option value="$PROJECT_DIR$/src/Cliente/Cliente.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="992" />
@@ -107,12 +146,6 @@
               <item name="Sockets" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sockets" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FigureaGeometrica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sockets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sockets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -121,6 +154,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Gui" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="Sockets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sockets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Servidor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +173,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="220" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="343" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="246" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Servidor" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cliente4">
+  <component name="RunManager" selected="Application.Cliente">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cliente.Cliente" />
       <module name="Sockets" />
@@ -222,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.Cliente4" />
         <item itemvalue="Application.Cliente2" />
         <item itemvalue="Application.Cliente3" />
-        <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Servidor" />
       </list>
     </recent_temporary>
   </component>
@@ -244,10 +283,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="992" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15282215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116145834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,7 +303,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" weight="0.26898327" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" visible="true" weight="0.2228739" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -294,23 +333,6 @@
     <entry file="file://$PROJECT_DIR$/Sockets.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/GUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -328,10 +350,30 @@
     <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente4.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/GUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="609">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

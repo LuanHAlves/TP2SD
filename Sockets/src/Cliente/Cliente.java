@@ -14,13 +14,11 @@ public class Cliente {
 //    private DataInputStream in;
 //    private DataOutputStream out;
 
-    public static void main(String[] args) {
+    private static void runCliente(String host, int portaServidor){
 
-        String host = "127.0.0.1";
-        int portaServidor = 7896;
-
-        GUI gui = new GUI ();
+        GUI gui = new GUI ( );
         gui.setVisible (true);
+        gui.setLocationRelativeTo (null);
 
         try {
 
@@ -34,13 +32,15 @@ public class Cliente {
 
             String mensagem = "x";
             String fig;
-            int iteracoes = 100;
+            int iteracoes = 10;
+
             for (int i = 0; i < iteracoes; i++) {
                 output.println (mensagem);
                 output.flush ( );
                 fig = input.readLine ( );
                 System.out.println (fig);
                 gui.setImgLabel (fig);
+                gui.setIterLabel (i+1);
                 Thread.sleep (1000);
             }
 
@@ -48,5 +48,12 @@ public class Cliente {
         } catch (IOException | InterruptedException e) {
             e.printStackTrace ( );
         }
+    }
+
+    public static void main(String[] args) {
+        String host = "127.0.0.1";
+        int portaServidor = 7896;
+
+        runCliente (host, portaServidor);
     }
 }
