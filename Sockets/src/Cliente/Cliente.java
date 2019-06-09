@@ -1,5 +1,7 @@
 package Cliente;
 
+import Gui.GUI;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,7 +18,13 @@ public class Cliente {
 
         String host = "127.0.0.1";
         int portaServidor = 7896;
-        try (Socket socket = new Socket (host, portaServidor)) {
+
+        GUI gui = new GUI ();
+        gui.setVisible (true);
+
+        try {
+
+            Socket socket = new Socket (host, portaServidor);
             PrintWriter output = new PrintWriter (socket.getOutputStream ( ), true);
             BufferedReader input = new BufferedReader (new InputStreamReader (socket.getInputStream ( )));
             Scanner scanner = new Scanner (System.in);
@@ -24,16 +32,20 @@ public class Cliente {
 //            DataInputStream in= new DataInputStream(socket.getInputStream());
 //            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
-            String mensagem = null;
-            while (!"exit".equalsIgnoreCase (mensagem)) {
-                mensagem = scanner.nextLine ( );
+            String mensagem = "x";
+            String fig;
+            int iteracoes = 100;
+            for (int i = 0; i < iteracoes; i++) {
                 output.println (mensagem);
                 output.flush ( );
-//                out.writeUTF(mensagem);
-                System.out.println (input.readLine ());
+                fig = input.readLine ( );
+                System.out.println (fig);
+                gui.setImgLabel (fig);
+                Thread.sleep (1000);
             }
+
             scanner.close ( );
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace ( );
         }
     }
