@@ -1,6 +1,6 @@
 package Servidor;
 
-import FigureaGeometrica.FiguraGeometricaImpl;
+import FiguraGeometrica.FiguraGeometricaImpl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -82,6 +82,7 @@ public class Servidor {
 
             servidor = new ServerSocket (7896);
             servidor.setReuseAddress (true);
+            System.out.println ("Servidor Pronto :)");
 
             /*
              *  Thread principal apenas para aceitar novas coneções

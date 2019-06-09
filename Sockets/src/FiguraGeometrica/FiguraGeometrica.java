@@ -1,4 +1,4 @@
-package FigureaGeometrica;
+package FiguraGeometrica;
 
 public interface FiguraGeometrica{
 

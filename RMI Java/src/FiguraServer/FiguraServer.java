@@ -19,22 +19,22 @@ public class FiguraServer implements FiguraGeometrica {
 
     @Override
     public String quadrado() {
-        return "QUADRADO";
+        return "quadrado";
     }
 
     @Override
     public String retangulo() {
-        return "RETANGULO";
+        return "retangulo";
     }
 
     @Override
     public String circulo() {
-        return "CIRCULO";
+        return "circulo";
     }
 
     @Override
     public String triangulo() {
-        return "TRIANGULO";
+        return "triangulo";
     }
 
     @Override
@@ -68,12 +68,10 @@ public class FiguraServer implements FiguraGeometrica {
 
         try {
 
-
             FiguraGeometrica figura = (FiguraGeometrica) UnicastRemoteObject.exportObject (figServer, 0);
             Registry registry = LocateRegistry.createRegistry (figServer.porta);
             registry.bind ("FiguraGeometrica", figura);
             System.out.println ("Servidor Pronto :) ");
-
 
         } catch (RemoteException | AlreadyBoundException e) {
             e.printStackTrace ( );

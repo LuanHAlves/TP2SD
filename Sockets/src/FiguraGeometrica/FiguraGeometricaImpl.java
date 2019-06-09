@@ -1,4 +1,4 @@
-package FigureaGeometrica;
+package FiguraGeometrica;
 
 import java.util.Random;
 

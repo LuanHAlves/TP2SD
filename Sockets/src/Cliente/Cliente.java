@@ -14,7 +14,7 @@ public class Cliente {
 //    private DataInputStream in;
 //    private DataOutputStream out;
 
-    private static void runCliente(String host, int portaServidor){
+    private static void runCliente(String host, int portaServidor) {
 
         GUI gui = new GUI ( );
         gui.setVisible (true);
@@ -40,7 +40,7 @@ public class Cliente {
                 fig = input.readLine ( );
                 System.out.println (fig);
                 gui.setImgLabel (fig);
-                gui.setIterLabel (i+1);
+                gui.setIterLabel (i + 1);
                 Thread.sleep (1000);
             }
 
