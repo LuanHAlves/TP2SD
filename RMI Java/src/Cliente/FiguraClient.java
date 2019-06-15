@@ -1,4 +1,4 @@
-package FiguraClient;
+package Cliente;
 
 import FiguraGeometrica.FiguraGeometrica;
 import Gui.GUI;

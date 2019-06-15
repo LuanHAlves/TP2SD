@@ -1,4 +1,4 @@
-package FiguraServer;
+package Servidor;
 
 import FiguraGeometrica.FiguraGeometrica;
 
