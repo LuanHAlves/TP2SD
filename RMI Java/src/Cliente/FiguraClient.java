@@ -23,8 +23,6 @@ public class FiguraClient {
     private static void runCliente(int portaServidor) throws InterruptedException {
 
         GUI gui = new GUI ( );
-        gui.setVisible (true);
-        gui.setLocationRelativeTo (null);
 
         try {
 
@@ -32,13 +30,17 @@ public class FiguraClient {
             Registry registry = LocateRegistry.getRegistry ("localhost", figuraClient.getPortaServidor ( ));
             FiguraGeometrica figura = (FiguraGeometrica) registry.lookup ("FiguraGeometrica");
 
-            int iteracoes = 50;
+            String resposta;
+            int iteracoes = gui.setOpcao ();
+            gui.setVisible (true);
+            gui.setLocationRelativeTo (null);
+
             for (int i = 0; i < iteracoes; i++) {
-                String resposta = figura.figuraAleatoria ( );
+                Thread.sleep (1000);
+                resposta = figura.figuraAleatoria ( );
                 gui.setImgLabel (resposta);
                 gui.setIterLabel (i+1);
                 System.out.println (resposta);
-                Thread.sleep (1000);
             }
 
 

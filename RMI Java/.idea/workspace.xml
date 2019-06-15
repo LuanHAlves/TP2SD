@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91546d18-e634-4811-b14e-ca5c8e0b6271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Web Service/Web Service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiguraClient/FiguraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente/FiguraClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiguraServer/FiguraServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servidor/FiguraServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente/FiguraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente/FiguraClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sockets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sockets/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sockets/src/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sockets/src/Cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sockets/src/Gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sockets/src/Gui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +21,18 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4904014">
+    <splitter split-orientation="horizontal" split-proportion="0.47227192">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Servidor/FiguraServer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+                <state relative-caret-position="342">
+                  <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#930#1373#0" />
+                    <element signature="e#546#547#0" expanded="true" />
+                    <element signature="e#580#581#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -39,7 +42,7 @@
             <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="126">
-                  <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -54,8 +57,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cliente/FiguraClient.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="29" selection-start-line="28" selection-end-line="29" />
+                <state relative-caret-position="507">
+                  <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="567">
+                  <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -83,6 +98,9 @@
         <option value="$PROJECT_DIR$/src/FiguraClient/FiguraClient3.java" />
         <option value="$PROJECT_DIR$/RMI Java.iml" />
         <option value="$PROJECT_DIR$/src/FiguraServer/FiguraServer.java" />
+        <option value="$PROJECT_DIR$/src/Servidor/FiguraServer.java" />
+        <option value="$PROJECT_DIR$/src/Gui/GUI.java" />
+        <option value="$PROJECT_DIR$/src/Cliente/FiguraClient.java" />
       </list>
     </option>
   </component>
@@ -115,6 +133,19 @@
               <item name="RMI Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="RMI Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RMI Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RMI Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RMI Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RMI Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gui" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +290,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1046875" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10702875" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3296837" />
       <window_info anchor="bottom" auto_hide="true" id="Terminal" order="1" weight="0.32846716" />
@@ -267,7 +298,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.96350366" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="6" weight="0.24351297" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="6" visible="true" weight="0.24251497" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39972714" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -317,16 +348,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FiguraClient/FiguraClient2.java" />
     <entry file="file://$PROJECT_DIR$/src/FiguraClient/FiguraClient3.java" />
-    <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RMI Java.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -334,20 +355,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cliente/FiguraClient.java">
+    <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="29" selection-start-line="28" selection-end-line="29" />
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servidor/FiguraServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="342">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#930#1373#0" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente/FiguraClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

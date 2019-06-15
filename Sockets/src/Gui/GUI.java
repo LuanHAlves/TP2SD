@@ -22,6 +22,11 @@ public class GUI extends JFrame {
         iterLabel.setText (iStr);
     }
 
+    public int setOpcao() {
+        String opInt = JOptionPane.showInputDialog ("Número de Requisições: ");
+        return Integer.parseInt (opInt);
+    }
+
     public GUI() {
         setSize (WIDTH, HEIGHT);
         setContentPane (mainPanel);

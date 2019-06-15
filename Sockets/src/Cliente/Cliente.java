@@ -17,8 +17,6 @@ public class Cliente {
     private static void runCliente(String host, int portaServidor) {
 
         GUI gui = new GUI ( );
-        gui.setVisible (true);
-        gui.setLocationRelativeTo (null);
 
         try {
 
@@ -32,16 +30,18 @@ public class Cliente {
 
             String mensagem = "x";
             String fig;
-            int iteracoes = 50;
+            int iteracoes = gui.setOpcao ();
+            gui.setVisible (true);
+            gui.setLocationRelativeTo (null);
 
             for (int i = 0; i < iteracoes; i++) {
+                Thread.sleep (1000);
                 output.println (mensagem);
                 output.flush ( );
                 fig = input.readLine ( );
                 System.out.println (fig);
                 gui.setImgLabel (fig);
                 gui.setIterLabel (i + 1);
-                Thread.sleep (1000);
             }
 
             scanner.close ( );
