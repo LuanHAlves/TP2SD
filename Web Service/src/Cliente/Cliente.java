@@ -1,11 +1,11 @@
 package Cliente;
 
 import Gui.GUI;
+
 import WebServer.FiguraGeometrica;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.swing.JOptionPane;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
@@ -23,7 +23,7 @@ public class Cliente {
         int numRequisicao;
         String resposta;
 
-        numRequisicao = opcao ( );
+        numRequisicao = gui.setOpcao ( );
         gui.setVisible (true);
         gui.setLocationRelativeTo (null);
         for (int i = 0; i < numRequisicao; i++) {
@@ -34,10 +34,4 @@ public class Cliente {
             System.out.println (resposta + " " + i);
         }
     }
-
-    private static int opcao() {
-        String opInt = JOptionPane.showInputDialog ("Número de Requisições: ");
-        return Integer.parseInt (opInt);
-    }
-
 }
