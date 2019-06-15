@@ -32,7 +32,7 @@ public class Cliente {
 
             String mensagem = "x";
             String fig;
-            int iteracoes = 10;
+            int iteracoes = 50;
 
             for (int i = 0; i < iteracoes; i++) {
                 output.println (mensagem);
@@ -56,4 +56,5 @@ public class Cliente {
 
         runCliente (host, portaServidor);
     }
+
 }

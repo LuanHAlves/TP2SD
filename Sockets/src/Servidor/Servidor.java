@@ -75,12 +75,12 @@ public class Servidor {
     }
 
 
-    public static void main(String[] args) {
+    private static void runServidor(int porta) {
 
         ServerSocket servidor = null;
         try {
 
-            servidor = new ServerSocket (7896);
+            servidor = new ServerSocket (porta);
             servidor.setReuseAddress (true);
             System.out.println ("Servidor Pronto :)");
 
@@ -111,6 +111,12 @@ public class Servidor {
             }
 
         }
+    }
+
+    public static void main(String[] args) {
+        int portaServidor = 7896;
+
+        runServidor (portaServidor);
     }
 
 }

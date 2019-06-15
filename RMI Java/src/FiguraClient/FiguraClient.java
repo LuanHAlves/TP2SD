@@ -32,7 +32,7 @@ public class FiguraClient {
             Registry registry = LocateRegistry.getRegistry ("localhost", figuraClient.getPortaServidor ( ));
             FiguraGeometrica figura = (FiguraGeometrica) registry.lookup ("FiguraGeometrica");
 
-            int iteracoes = 10;
+            int iteracoes = 50;
             for (int i = 0; i < iteracoes; i++) {
                 String resposta = figura.figuraAleatoria ( );
                 gui.setImgLabel (resposta);

@@ -1,6 +1,6 @@
 package FiguraServer;
 
-import FiguraGeometrica.*;
+import FiguraGeometrica.FiguraGeometrica;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;

@@ -3,19 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="fc85bb93-2a36-4137-87da-bf09e1b4c60b" name="Default Changelist" comment="Implementação de sockets do tp2 de SD.">
       <change beforePath="$PROJECT_DIR$/../RMI Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RMI Java/RMI Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/RMI Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/FiguraClient/FiguraClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/FiguraClient/FiguraClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/FiguraServer/FiguraServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/FiguraServer/FiguraServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/src/FiguraClient/FiguraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/src/FiguraClient/FiguraClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/src/FiguraServer/FiguraServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/src/FiguraServer/FiguraServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Cliente/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/FigureaGeometrica/FiguraGeometrica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/FigureaGeometrica/FiguraGeometricaImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor$ClienteConHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor$ClienteConHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/Servidor/Servidor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FigureaGeometrica/FiguraGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FigureaGeometrica/FiguraGeometricaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometricaImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servidor/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servidor/Servidor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,17 +25,16 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.51384795">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1827">
-                  <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+                <state relative-caret-position="334">
+                  <caret line="92" column="80" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2795#3195#1" />
                   </folding>
                 </state>
               </provider>
@@ -57,12 +52,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-318">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="420">
+                  <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -106,6 +101,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -115,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -158,6 +153,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Servidor">
+  <component name="RunManager" selected="Application.Cliente">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cliente.Cliente" />
       <module name="Sockets" />
@@ -254,8 +250,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.Cliente4" />
         <item itemvalue="Application.Cliente2" />
         <item itemvalue="Application.Cliente3" />
@@ -279,7 +275,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118743345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1546875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +292,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" weight="0.22255489" />
+      <window_info anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" weight="0.22189638" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -326,25 +322,21 @@
     <entry file="file://$PROJECT_DIR$/Sockets.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente4.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente3.java" />
+    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente4.java" />
     <entry file="file://$PROJECT_DIR$/src/Gui/GUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="92" column="80" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,19 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2795#3195#1" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
