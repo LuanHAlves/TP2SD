@@ -1,16 +1,15 @@
 package Cliente;
 
 import Gui.GUI;
-
 import WebServer.FiguraGeometrica;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Random;
-import javax.xml.namespace.QName;
-import javax.xml.ws.Service;
 
-public class Cliente {
+public class Cliente2 {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
@@ -42,5 +41,5 @@ public class Cliente {
         Random generator = new Random ( );
         return generator.nextInt((max - min) + 1) + min;
     }
-
+    
 }

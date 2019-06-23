@@ -11,6 +11,7 @@ public class Servidor {
             System.err.println ("Erro!");
             e.printStackTrace ();
         }
+        System.out.println ("Servidor Pronto :)");
     }
 
     public static void main(String[] args) {

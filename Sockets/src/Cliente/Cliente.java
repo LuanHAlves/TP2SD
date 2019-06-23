@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.*;
 import java.net.*;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Cliente {
@@ -35,7 +36,7 @@ public class Cliente {
             gui.setLocationRelativeTo (null);
 
             for (int i = 0; i < iteracoes; i++) {
-                Thread.sleep (1000);
+                Thread.sleep (aleatorio (500, 1000));
                 output.println (mensagem);
                 output.flush ( );
                 fig = input.readLine ( );
@@ -48,6 +49,11 @@ public class Cliente {
         } catch (IOException | InterruptedException e) {
             e.printStackTrace ( );
         }
+    }
+
+    private static int aleatorio(int min, int max) {
+        Random generator = new Random ( );
+        return generator.nextInt((max - min) + 1) + min;
     }
 
     public static void main(String[] args) {

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc85bb93-2a36-4137-87da-bf09e1b4c60b" name="Default Changelist" comment="Implementação de sockets do tp2 de SD.">
+      <change beforePath="$PROJECT_DIR$/../RMI Java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/Cliente/FiguraClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/Cliente/FiguraClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/Gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/out/production/RMI Java/Gui/GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMI Java/src/Cliente/FiguraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/src/Cliente/FiguraClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RMI Java/src/Gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMI Java/src/Gui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web Service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/out/production/Web Service/Cliente/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/out/production/Web Service/Cliente/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/out/production/Web Service/Gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/out/production/Web Service/Gui/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/out/production/Web Service/WebServer/Servidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/out/production/Web Service/WebServer/Servidor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/src/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/src/Cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Service/src/WebServer/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Service/src/WebServer/Servidor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +32,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
+                <state relative-caret-position="1248">
                   <caret line="92" column="80" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -54,8 +57,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+                <state relative-caret-position="564">
+                  <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -64,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+                  <caret column="25" selection-start-column="25" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -119,6 +122,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,18 +141,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Gui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sockets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sockets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Gui" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +266,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15814696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +283,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" weight="0.22189638" />
+      <window_info anchor="bottom" auto_hide="true" x="1262" y="396" width="658" height="618" id="Run" order="10" weight="0.22155689" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -328,9 +324,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Servidor/Servidor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="1248">
           <caret line="92" column="80" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -345,17 +348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiguraGeometrica/FiguraGeometrica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliente/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="564">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
         </state>
       </provider>
     </entry>
